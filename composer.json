@@ -41,9 +41,9 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "illuminate/console": "^8.0",
-        "illuminate/database": "^8.0",
-        "illuminate/support": "^8.0",
+        "illuminate/console": "^8.0.3",
+        "illuminate/database": "^8.0.3",
+        "illuminate/support": "^8.0.3",
         "rinvex/laravel-support": "dev-master",
         "spatie/eloquent-sortable": "^3.7.0",
         "spatie/laravel-schemaless-attributes": "^1.7.0",
