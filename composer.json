@@ -44,7 +44,7 @@
         "illuminate/console": "^7.0|^8.0",
         "illuminate/database": "^7.0|^8.0",
         "illuminate/support": "^7.0|^8.0",
-        "rinvex/laravel-support": "^4.0.0",
+        "rinvex/laravel-support": "dev-l8-compatibility",
         "spatie/eloquent-sortable": "^3.7.0",
         "spatie/laravel-schemaless-attributes": "^1.7.0",
         "spatie/laravel-sluggable": "^2.2.0",
@@ -54,6 +54,12 @@
         "codedungeon/phpunit-result-printer": "^0.27.0",
         "illuminate/container": "^7.0|^8.0",
         "phpunit/phpunit": "^9.0.0"
+    },
+    "repositories": {
+        "rinvex/laravel-support": {
+            "type": "vcs",
+            "url": "git@github.com:sashsvamir/laravel-support.git"
+        }
     },
     "autoload": {
         "classmap": [
